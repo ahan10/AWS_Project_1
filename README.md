@@ -37,7 +37,7 @@ The following objectives were addressed in this project:
 1. **Launch EC2 Instances**:
     - Created one EC2 instances to serve the PHP website.
     - Installed relevant packages such as apache2 (the web server) and MySQL.
-    - Created custom images out of this instance (used in Auto Scaling).
+    - Created an Images of this instance (used in Auto Scaling).
 2. **Networking Configuration**:
     - Created two security groups to server the following purpose:
       - Allow EC2 instances to communicate with the RDS instance.
