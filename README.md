@@ -28,6 +28,11 @@ The following objectives were addressed in this project:
 - **Auto Scaling**: To maintain application availability by automatically adjusting the number of EC2 instances.
 - **MySQL**: To manage the database layer of the application.
 
+## Architecture
+
+[PDF Version](/Screenshots/AWS_Project_1_Vectorized.pdf)
+![DB-SG](/Screenshots/AWS_Project_1_Architecture.png)
+
 ## Steps Performed
 1. **Launch EC2 Instances**:
     - Created one EC2 instances to serve the PHP website.
