@@ -50,6 +50,30 @@ The following objectives were addressed in this project:
 
 ## Screenshots
 
+### Using Database and Creating the Table 
+![DataBaseUsed](/Screenshots/DB-Created.png)
+![TableCreated](/Screenshots/Table-Created.png)
+
+### Network Configurations 
+#### Security Group for the EC2 Instance
+![EC2-SG](/Screenshots/EC2-SG.png)
+
+#### Security Group for the Database
+![DB-SG](/Screenshots/DB-SG.png)
+
+### Auto Scaling
+![DB-SG](/Screenshots/AutoScaling.png)
+
+### Elastic Load Balancer
+![DB-SG](/Screenshots/LoadBalancer.png)
+
+### Website Running
+![DB-SG](/Screenshots/Website_Running.png)
+
+## Difficuties Faced and Solutions
+
+- The files that were to be used for the website were located on my personal computer. The files also contained some images that had to be uploaded as a part of the website. To resolve this problem, I used [FileZilla](https://filezilla-project.org/).
+- Earlier, I was using an EC2 template that was exactly the same as the one lauched in the first stage. This template did not contain the required drivers in it and so when using Auto Scaling and Elastic Load Balancer, the system was failing. To resolve the problem, I created an image of the EC2 instance with the required drivers installed and used it as a template for Auto Scaling.
 
 ## Conclusion
-This project successfully demonstrates the deployment of a multi-tier web application using AWS services, ensuring high availability and scalability using EC2, Auto Scaling, and RDS.
+This project successfully demonstrates the deployment of a multi-tier web application using AWS services, ensuring high availability and scalability using EC2, Auto Scaling, ELB, and RDS.
